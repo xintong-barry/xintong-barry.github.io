@@ -44,6 +44,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
+        },{id: "nav-photography",
+          title: "Photography",
+          description: "Selected photos, shot by Fujifilm X-T3 / GFX100 II, Hasselblad X2D 100C, or DJI mini 3 pro.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/photography/";
+          },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
               description: "",
