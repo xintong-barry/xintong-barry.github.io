@@ -2,96 +2,96 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Xin Tong
+    - name: Title
+      value: Ph.D. Candidate in Medical and Electrical Engineering
+    - name: Email
+      value: X@caltech.edu, X = xintong
+    - name: Website
+      value: https://xintong-barry.github.io/
+    - name: Location
+      value: 1200 E. California Blvd, Pasadena, CA 91125
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD, Medical and Electrical Engineering
+      institution: California Institute of Technology, Pasadena, CA, US
+      year: 2020 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - GPA: 4.0/4.0
+    - title: MS, Medical Engineering
+      institution: California Institute of Technology, Pasadena, CA, US
+      year: 2020 – 2021
       description:
-        - Description 1.
-        - Description 2.
+        - GPA: 4.0/4.0
+    - title: BS, Physics
+      institution: Peking University, Beijing, China
+      year: 2015 – 2019
+      description:
+        - GPA: 3.8/4.0
 
-- title: Experience
+- title: Work Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Scientist Intern, Advanced Display and Imaging
+      institution: Reality Labs Research, Meta
+      year: 2024-06 – 2024-09
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Conducted research on advanced display technologies and imaging systems
+        - Focused on state-of-the-art hardware and computational methods
+    - title: Graduate Research Associate (Advisor: Prof. Lihong V. Wang)
+      institution: Caltech Optical Imaging Laboratory (COIL), Caltech
+      year: 2020 – Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Designed & optimized photoacoustic computed tomography for non-invasive vascular imaging
+        - Applied machine learning to reconstruct, enhance, and analyze images
+        - Developed quantum imaging systems with entangled-photon super-resolution and sub-shot-noise sensitivity
+    - title: Undergraduate Research Associate (Advisor: Prof. Aydogan Ozcan)
+      institution: Computational Imaging Lab, UCLA
+      year: 2018-07 – 2018-09
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - Implemented deep-learning algorithms for high-throughput holographic biosensor image analysis
+    - title: Undergraduate Research Associate (Advisor: Prof. Kebin Shi)
+      institution: Institute of Modern Optics, Peking University
+      year: 2017-09 – 2018-07
+      description:
+        - Researched wavefront-shaping techniques to achieve auto-focusing in optical systems
+    - title: Undergraduate Research Associate (Advisor: Prof. Dong Yu)
+      institution: Department of Physics, UC Davis
+      year: 2017-07 – 2017-09
+      description:
+        - Investigated spatially resolved photocurrent mapping using microscopy
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Winning Place (3rd Place), International Photography Awards
+        - Honorable Mention, International Photography Awards
+    - year: 2019
       items:
-        - Max Planck Medal
+        - National Scholarship, Peking University
+        - Merit Student Pacesetter, Peking University
+        - Outstanding Graduates, Peking University
+    - year: 2018
+      items:
+        - CSST Scholarship, UCLA
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Photoacoustic Imaging
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - State-of-the-art PACT for deep vascular visualization
+        - Computational & ML methods for image reconstruction and smart diagnosis
+    - title: Quantum Imaging
       items:
-        - Description 1.
-        - Description 2.
+        - Optical imaging with spatial & polarization-entangled photon pairs
+        - Super-resolution & sub-shot-noise imaging for biological samples
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Photography, Indie Music, Hiking, Skiing
