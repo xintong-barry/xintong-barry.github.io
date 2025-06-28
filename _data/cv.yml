@@ -31,7 +31,7 @@
       description:
         - GPA: 3.8/4.0
 
-- title: Work Experience
+- title: Experience
   type: time_table
   contents:
     - title: Research Scientist Intern, Advanced Display and Imaging
