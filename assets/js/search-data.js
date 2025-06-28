@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "My interactive resume can be found below, while the full version can be accessed [here]({{ site.baseurl }}/assets/pdf/CV_XinTong_20250626.pdf).",
+          description: "My interactive resume can be found below, while the full version can be accessed here.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
