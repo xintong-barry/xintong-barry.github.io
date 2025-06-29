@@ -435,6 +435,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20230501_Caltech_News_QMC/";
+            },},{id: "news-our-work-on-photoacoustic-tomography-through-an-ergodic-relay-pacter-is-covered-by-caltech-news",
+          title: 'Our work on photoacoustic tomography through an ergodic relay (PACTER) is covered by...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/20231201_Caltech_News_PACTER/";
             },},{id: "news-our-work-on-quantum-imaging-by-coincidence-from-entanglement-ice-is-covered-by-caltech-news",
           title: 'Our work on quantum imaging by coincidence from entanglement (ICE) is covered by...',
           description: "",
