@@ -7,6 +7,6 @@ nav: true
 nav_order: 7
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<h2>California Missions</h2>
 
-Organize your courses by years, topics, or universities, however you like!
+<iframe src="https://adobe.ly/44lJvVc" width="100%" height="800px" style="border:none;"></iframe>
