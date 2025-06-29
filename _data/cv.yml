@@ -6,9 +6,7 @@
     - name: Title
       value: Ph.D. Candidate in Medical and Electrical Engineering
     - name: Email
-      value: "X@caltech.edu, X = xintong"
-    - name: Website
-      value: https://xintong-barry.github.io/
+      value: X@caltech.edu, X = xintong
     - name: Location
       value: 1200 E. California Blvd, Pasadena, CA 91125
 
@@ -36,7 +34,7 @@
   contents:
     - title: Research Scientist Intern, Advanced Display and Imaging
       institution: Reality Labs Research, Meta
-      year: 2024/06 - 2024/09
+      year: 2024
       description:
         - Conducted research on advanced display technologies and imaging systems
         - Focused on state-of-the-art hardware and computational methods
@@ -49,17 +47,17 @@
         - Developed quantum imaging systems with entangled-photon super-resolution and sub-shot-noise sensitivity
     - title: Undergraduate Research Associate (Advisor: Prof. Aydogan Ozcan)
       institution: Computational Imaging Lab, UCLA
-      year: 2018/07 - 2018/09
+      year: 2018
       description:
         - Implemented deep-learning algorithms for high-throughput holographic biosensor image analysis
     - title: Undergraduate Research Associate (Advisor: Prof. Kebin Shi)
       institution: Institute of Modern Optics, Peking University
-      year: 2017/09 - 2018/07
+      year: 2017
       description:
         - Researched wavefront-shaping techniques to achieve auto-focusing in optical systems
     - title: Undergraduate Research Associate (Advisor: Prof. Dong Yu)
       institution: Department of Physics, UC Davis
-      year: 2017/07 - 2017/09
+      year: 2017
       description:
         - Investigated spatially resolved photocurrent mapping using microscopy
 
@@ -94,4 +92,4 @@
 - title: Other Interests
   type: list
   contents:
-    - "<u>Hobbies:</u> Photography, Indie Music, Hiking, Skiing"
+    - <u>Hobbies:</u> Photography, Indie Music, Hiking, Skiing
