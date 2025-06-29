@@ -430,7 +430,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "news-our-work-on-quantum-imaging-by-coincidence-from-entanglement-ice-is-covered-by-caltech-news",
+          section: "News",},{id: "news-our-work-on-quantum-microscopy-by-coincidence-qmc-is-covered-by-caltech-news",
+          title: 'Our work on quantum microscopy by coincidence (QMC) is covered by Caltech News...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/20230501_Caltech_News_QMC/";
+            },},{id: "news-our-work-on-quantum-imaging-by-coincidence-from-entanglement-ice-is-covered-by-caltech-news",
           title: 'Our work on quantum imaging by coincidence from entanglement (ICE) is covered by...',
           description: "",
           section: "News",handler: () => {
