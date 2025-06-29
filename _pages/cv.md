@@ -4,7 +4,8 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 5
-description: "The PDF version of my CV can be found <a href="/assets/pdf/CV_XinTong_20250626.pdf">here</a>."
+cv_pdf: CV_XinTong_20250626.pdf # you can also use external links here
+description: The PDF version of my CV can be found via the button on the right.
 toc:
   sidebar: left
 ---
