@@ -6,7 +6,7 @@
     - name: Title
       value: Ph.D. Candidate in Medical and Electrical Engineering
     - name: Email
-      value: X@caltech.edu, X = xintong
+      value: "X@caltech.edu, X = xintong"
     - name: Website
       value: https://xintong-barry.github.io/
     - name: Location
@@ -22,12 +22,12 @@
         - GPA: 4.0/4.0
     - title: MS, Medical Engineering
       institution: California Institute of Technology, Pasadena, CA, US
-      year: 2020 – 2021
+      year: 2020 - 2021
       description:
         - GPA: 4.0/4.0
     - title: BS, Physics
       institution: Peking University, Beijing, China
-      year: 2015 – 2019
+      year: 2015 - 2019
       description:
         - GPA: 3.8/4.0
 
@@ -36,30 +36,30 @@
   contents:
     - title: Research Scientist Intern, Advanced Display and Imaging
       institution: Reality Labs Research, Meta
-      year: 2024-06 – 2024-09
+      year: 2024/06 - 2024/09
       description:
         - Conducted research on advanced display technologies and imaging systems
         - Focused on state-of-the-art hardware and computational methods
     - title: Graduate Research Associate (Advisor: Prof. Lihong V. Wang)
       institution: Caltech Optical Imaging Laboratory (COIL), Caltech
-      year: 2020 – Present
+      year: 2020 - Present
       description:
         - Designed & optimized photoacoustic computed tomography for non-invasive vascular imaging
         - Applied machine learning to reconstruct, enhance, and analyze images
         - Developed quantum imaging systems with entangled-photon super-resolution and sub-shot-noise sensitivity
     - title: Undergraduate Research Associate (Advisor: Prof. Aydogan Ozcan)
       institution: Computational Imaging Lab, UCLA
-      year: 2018-07 – 2018-09
+      year: 2018/07 - 2018/09
       description:
         - Implemented deep-learning algorithms for high-throughput holographic biosensor image analysis
     - title: Undergraduate Research Associate (Advisor: Prof. Kebin Shi)
       institution: Institute of Modern Optics, Peking University
-      year: 2017-09 – 2018-07
+      year: 2017/09 - 2018/07
       description:
         - Researched wavefront-shaping techniques to achieve auto-focusing in optical systems
     - title: Undergraduate Research Associate (Advisor: Prof. Dong Yu)
       institution: Department of Physics, UC Davis
-      year: 2017-07 – 2017-09
+      year: 2017/07 - 2017/09
       description:
         - Investigated spatially resolved photocurrent mapping using microscopy
 
@@ -94,4 +94,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Photography, Indie Music, Hiking, Skiing
+    - "<u>Hobbies:</u> Photography, Indie Music, Hiking, Skiing"
