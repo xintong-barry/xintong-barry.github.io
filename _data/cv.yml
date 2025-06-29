@@ -6,7 +6,7 @@
     - name: Title
       value: Ph.D. Candidate in Medical and Electrical Engineering
     - name: Email
-      value: "X@caltech.edu, X = xintong"
+      value: "<i>x</i>@caltech.edu, <i>x</i> = xintong"
     - name: Location
       value: 1200 E. California Blvd, Pasadena, CA 91125
 
@@ -17,49 +17,81 @@
       institution: California Institute of Technology, Pasadena, CA, US
       year: 2020 - Present
       description:
-        - GPA: 4.0/4.0
+        - "GPA: 4.0/4.0"
     - title: MS, Medical Engineering
       institution: California Institute of Technology, Pasadena, CA, US
       year: 2020 - 2021
       description:
-        - GPA: 4.0/4.0
+        - "GPA: 4.0/4.0"
     - title: BS, Physics
       institution: Peking University, Beijing, China
       year: 2015 - 2019
       description:
-        - GPA: 3.8/4.0
+        - "GPA: 3.8/4.0“
 
-- title: Experience
+- title: Work Experiences
   type: time_table
   contents:
     - title: Research Scientist Intern, Advanced Display and Imaging
       institution: Reality Labs Research, Meta
-      year: 2024
+      year: 2024/06 - 2024/09
       description:
         - Conducted research on advanced display technologies and imaging systems
         - Focused on state-of-the-art hardware and computational methods
     - title: "Graduate Research Associate (Advisor: Prof. Lihong V. Wang)"
       institution: Caltech Optical Imaging Laboratory (COIL), Caltech
-      year: 2020 - Present
+      year: 2020/01 - Now
       description:
         - Designed & optimized photoacoustic computed tomography for non-invasive vascular imaging
         - Applied machine learning to reconstruct, enhance, and analyze images
         - Developed quantum imaging systems with entangled-photon super-resolution and sub-shot-noise sensitivity
     - title: "Undergraduate Research Associate (Advisor: Prof. Aydogan Ozcan)"
       institution: Computational Imaging Lab, UCLA
-      year: 2018
+      year: 2018/07 - 2018/09
       description:
         - Implemented deep-learning algorithms for high-throughput holographic biosensor image analysis
     - title: "Undergraduate Research Associate (Advisor: Prof. Kebin Shi)"
       institution: Institute of Modern Optics, Peking University
-      year: 2017
+      year: 2017/09 - 2018/07
       description:
         - Researched wavefront-shaping techniques to achieve auto-focusing in optical systems
     - title: "Undergraduate Research Associate (Advisor: Prof. Dong Yu)"
       institution: Department of Physics, UC Davis
-      year: 2017
+      year: 2017/07 - 2017/09
       description:
         - Investigated spatially resolved photocurrent mapping using microscopy
+
+- title: Publications
+  type: nested_list
+  contents:
+    - title: Peer-Reviewed Journal Articles (*co-first authors)
+      items:
+        - "<b>Tong, X.*</b>, Liu, C.*, Luo, Y.*, Lin, L.*, Dzubnar, J., Invernizzi, M., Zhang, Y., Cao, R., Hu, P., Torres, J., Kasabyan, A., Lai, L., Yee, L., Wang, L.V., Panoramic photoacoustic computed tomography with learning-based classification enhances breast lesion characterization. <i>Nature Biomedical Engineering</i>, 2025."
+        - "<b>Tong, X.</b>, Zhang, Y., Wang, L.V., Quantum imaging enhances classical counterpart with entangled photons. Optics & Photonics News, 2024."
+        - "Zhang, Y.*, He, Z.*, <b>Tong, X.*</b>, Garrett, D.C., Cao, R., Wang, L.V., Quantum imaging of biological organisms through spatial and polarization entanglement. <i>Science Advances</i>, 2024."
+        - "Zhang, Y.*, Hu, P.*, Li, L., Cao, R., Khadria, A., Maslov, K., <b>Tong, X.</b>, Zeng, Y., Jiang, L., Zhou, Q., Wang, L. V., Single-shot 3D photoacoustic tomography using a single-element detector for ultrafast imaging of hemodynamics, <i>Nature Biomedical Engineering</i>, 2024."
+        - "Luo, Y., Huang, H., Sastry, K., Hu, P., Tong, X., Kuo, J., Na, S., Villa, U., Anastasio, M. A., Wang, L. V., Full-wave Image Reconstruction in Transcranial Photoacoustic Computed Tomography using a Multiphysics Finite Element Method. <i>IEEE Transactions on Medical Imaging</i>, 2024."
+        - "<b>Tong, X.*</b>, Lin, L.*, Hu, P., Cao, R., Zhang, Y., Olick-Gibson, J., Wang, L.V., Non‐Invasive 3D Photoacoustic Tomography of Angiographic Anatomy and Hemodynamics of Fatty Livers in Rats. <i>Advanced Science</i>, 2023."
+        - "<b>Tong, X.*</b>, He, Z.*, Zhang, Y.*, Solomon, S., Lin, L., Song, Q., Wang, L.V., Experimental full-domain mapping of quantum steering and nonlocality. <i>Physical Review Applied</i>, 2023."
+        - "He, Z.*, Zhang, Y.*, <b>Tong, X.*</b>, Li, L., Wang, L.V., Quantum Microscopy of Cancer Cells at the Heisenberg Limit. <i>Nature Communications</i>, 2023."
+        - "Lin, L.*, <b>Tong, X.*</b>, Cavallero, S., Zhang, Y., Na, S., Cao, R., Hsiai, T.K, Wang, L.V., Non-invasive photoacoustic computed tomography of rat heart anatomy and function. <i>Light: Science & Applications</i>, 2023."
+        - "Sastry, K., Zhang, Y., Hu, P., Luo, Y., <b>Tong, X.</b>, Na, S., Wang, L. V., A method for the geometric calibration of ultrasound transducer arrays with arbitrary geometries. <i>Photoacoustics</i>, 2023."
+        - "Lin, L.*, Hu, P.*, <b>Tong, X.*</b>, Na, S.*, Cao, R., Yuan, X., Garrett, D.C., Shi, J., Maslov, K., Wang, L.V., High-speed three-dimensional photoacoustic computed tomography for preclinical research and clinical translation. <i>Nature Communications</i>, 2021."
+        - "Lin, L.*, <b>Tong, X.*</b>, Hu, P., Invernizzi, M., Lai, L., Wang, L. V., Photoacoustic Computed Tomography of Breast Cancer in Response to Neoadjuvant Chemotherapy. <i>Advanced Science</i>, 2021."
+        - "Wu, Y., Ray, A., Wei, Q., Feizi, A., <b>Tong, X.</b>, Chen, E., Luo, Y., Ozcan, A., Deep learning enables high-throughput analysis of particle-aggregation-based biosensors imaged using holography. <i>ACS Photonics</i>, 2018."
+        - "Hou, Y., Xiao, R., <b>Tong, X.</b>, Dhuey, S., Yu, D., In situ visualization of fast surface ion diffusion in vanadium dioxide nanowires. <i>Nano letters</i>, 2017."
+    - title: Preprint Articles (*co-first authors)
+      items:
+        - "Zhang, Y.*, Na, S.*, Russin, J.*, Sastry, K., Lin, L., Zheng, J., Luo, Y., <b>Tong, X.</b>, An, Y., Hu, P., Maslov, K., Tan, T., Liu, C., Wang, L. V., Rotational ultrasound and photoacoustic tomography of the human body. <i>arXiv preprint</i>, 2025."
+        - "Hu, P., <b>Tong, X.</b>, Lin, L., Wang, L. V., Data-driven system matrix manipulation enabling fast functional imaging and intra-image nonrigid motion correction in tomography. <i>bioRxiv</i>, 2024."
+        - "Cao, R.*, Luo, Y.*, Xu, J., Luo, X., Geng, K., Aborahama, Y., Cui, M., Davis, S., Na, S., <b>Tong, X.</b>, Liu, C., Sastry, K., Maslov, K., Hu, P., Zhang, Y., Lin, L., Zhang, Y., Wang, L. V., Single-shot 3D photoacoustic computed tomography with a densely packed array for transcranial functional imaging. <i>arXiv preprint</i>, 2023."
+        - "Zhang, Y., Na, S., Sastry, K., Russin, J.J., Hu, P., Lin, L., <b>Tong, X.</b>, Jann, K.B., Wang, D.J., Liu, C.Y., Wang, L.V., Transcranial photoacoustic computed tomography of human brain function. <i>arXiv preprint</i>, 2022."
+    - title: Peer-Reviewed Conference Abstracts and Proceedings
+      items:
+        - "Lin, L., Hu, P., <b>Tong, X.</b>, Na, S., Cao, R., Yuan, X., Garrett, D.C., Shi, J., Maslov, K., Wang, L. V., Three-dimensional photoacoustic computed tomography for preclinical research and clinical translation. <i>In Photons Plus Ultrasound: Imaging and Sensing</i>, International Society for Optics and Photonics (SPIE), 2021."
+        - "Lin, L., <b>Tong, X.</b>, Hu, P., Invernizzi, M., Lai, L., Wang, L. V., Clinical photoacoustic computed tomography of breast cancer treated with neoadjuvant chemotherapy. <i>In Photons Plus Ultrasound: Imaging and Sensing</i>, SPIE, 2021."
+        - "Wu, Y., Ray, A., Wei, Q., Feizi, A., <b>Tong, X.</b>, Chen, E., Luo, Y., Ozcan, A., Particle-Aggregation Based Virus Sensor Using Deep Learning and Lensless Digital Holography. <i>In CLEO: Applications and Technology</i>, Optica, 2019."
+        - "Hou, Y., Xiao, R., <b>Tong, X.</b>, Dhuey, S., Yu, D., Direct Visualization of Fast Surface Ion Diffusion in Vanadium Dioxide Nanowires. <i>In APS March Meeting Abstracts</i>, 2018."
 
 - title: Honors and Awards
   type: time_table
@@ -77,19 +109,43 @@
       items:
         - CSST Scholarship, UCLA
 
-- title: Academic Interests
+- title: Professional Activities
   type: nested_list
   contents:
-    - title: Photoacoustic Imaging
+    - title: Conference Oral Presentations
       items:
-        - State-of-the-art PACT for deep vascular visualization
-        - Computational & ML methods for image reconstruction and smart diagnosis
-    - title: Quantum Imaging
+        - "Photoacoustic and quantum enhanced imaging (invited talk). <i>22nd Annual Neurotech Convention</i>, SBMT, 2025."
+        - "Integrating machine learning with panoramic photoacoustic computed tomography for improved breast lesion analysis. <i>In Photons Plus Ultrasound: Imaging and Sensing</i>. SPIE Photonics West, 2025."
+        - "Super-resolution quantum microscopy at the Heisenberg limit. <i>In Quantum Sensing, Imaging, and Precision Metrology II</i>. SPIE Quantum/Photonics West, 2024."
+        - "Experimental full-domain mapping of quantum correlation in Clauser-Horne-Shimony-Holt scenarios, <i>In Quantum Computing, Communication, and Simulation IV</i>. SPIE Quantum/Photonics West, 2024."
+        - "Non-invasive photoacoustic computed tomography of cardiac anatomy and function in rats. <i>In Photons Plus Ultrasound: Imaging and Sensing</i>. SPIE Photonics West, 2023."
+        - "Three-dimensional photoacoustic tomography of angiographic anatomy and hemodynamics for fatty liver study. <i>In Photons Plus Ultrasound: Imaging and Sensing</i>. SPIE Photonics West, 2023."
+    - title: Teaching Activities
       items:
-        - Optical imaging with spatial & polarization-entangled photon pairs
-        - Super-resolution & sub-shot-noise imaging for biological samples
+      - "Teaching assistant, MedE 168: Biomedical Optics: Principles and Imaging, Caltech"
+      - "Teaching assistant, MedE/EE 268: Medical Imaging, Caltech"
+      - "Teaching assistant, APh/Ph 138b: Quantum Hardware and Techniques, Caltech"
+    - title: Peer Review Services
+      items: "100+ peer review records in <i>Light: Science & Applications</i>, <i>IEEE Transactions on Medical Imaging</i>, <i>Photoacoustics</i>, etc."
+    - title: Guest Editor Services
+      items: "Technical Program Committee Member, special issue <i>Advanced Optical Detection and Imaging Systems</i>, <i>Electronics</i>."
 
-- title: Other Interests
-  type: list
+- title: Interests and Skills
+  type: nested_list
   contents:
-    - "<u>Hobbies:</u> Photography, Indie Music, Hiking, Skiing"
+    - title: Research Interests
+      items:
+        - Optical Imaging (e.g., Quantum Imaging, Photoacoustic Imaging, Computational Imaging)
+        - Image Processing and Reconstruction
+        - Medical Devices and Translational Research
+        - Machine and Statistical Learning
+        - Quantum Optics and Photonics
+    - title: Technical Skills
+      items:
+        - "<b>Programming languages and APIs</b>: MATLAB, Python, C/C++, LaTeX; Numpy, TensorFlow, XGBoost, etc."
+        - "<b>Software</b>: LabVIEW, Zemax OpticsStudio, SolidWorks, ImageJ, Adobe Photoshop, Lightroom, Premiere Pro, etc."
+    - title: Hobbies
+      items:
+        - Travel and Portrait Photography
+        - Hiking
+        - Skiing
