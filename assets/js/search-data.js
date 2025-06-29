@@ -49,7 +49,7 @@ ninja.data = [{
           description: "Selected photos, shot by Fujifilm X-T3 / GFX100 II, Hasselblad X2D 100C, or DJI mini 3 pro.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/photography/";
+            window.location.href = "/https:/xintong.myportfolio.com/";
           },
         },{id: "post-a-post-with-plotly-js",
         
