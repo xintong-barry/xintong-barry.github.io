@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Activities
+description: My professional activities, including conferences appearances, teaching, peer review services, and guest editorial roles.
 nav: true
 nav_order: 6
 ---
