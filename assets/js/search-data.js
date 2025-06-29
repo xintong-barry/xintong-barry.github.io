@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "The PDF version of my CV can be found via the button on the right.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "nav-activities",
           title: "Activities",
           description: "My professional activities, including conferences appearances, teaching, peer review services, and guest editorial roles.",
