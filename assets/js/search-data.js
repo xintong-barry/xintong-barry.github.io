@@ -419,10 +419,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-our-work-on-quantum-microscopy-by-coincidence-qmc-is-covered-by-caltech-news",
+            },},{id: "news-our-work-on-quantum-microscopy-by-coincidence-qmc-is-covered-by-caltech-news",
           title: 'Our work on quantum microscopy by coincidence (QMC) is covered by Caltech News...',
           description: "",
           section: "News",handler: () => {
@@ -432,6 +429,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20231201_Caltech_News_PACTER/";
+            },},{id: "news-our-work-on-photoacoustic-tomography-through-an-ergodic-relay-pacter-is-highlighted-by-nibib",
+          title: 'Our work on photoacoustic tomography through an ergodic relay (PACTER) is highlighted by...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/20240216_NIBIB_PACTER/";
             },},{id: "news-our-work-on-quantum-imaging-by-coincidence-from-entanglement-ice-is-covered-by-caltech-news",
           title: 'Our work on quantum imaging by coincidence from entanglement (ICE) is covered by...',
           description: "",
