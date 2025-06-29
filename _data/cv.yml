@@ -6,7 +6,7 @@
     - name: Title
       value: Ph.D. Candidate in Medical and Electrical Engineering
     - name: Email
-      value: X@caltech.edu, X = xintong
+      value: "X@caltech.edu, X = xintong"
     - name: Location
       value: 1200 E. California Blvd, Pasadena, CA 91125
 
@@ -38,24 +38,24 @@
       description:
         - Conducted research on advanced display technologies and imaging systems
         - Focused on state-of-the-art hardware and computational methods
-    - title: Graduate Research Associate (Advisor: Prof. Lihong V. Wang)
+    - title: "Graduate Research Associate (Advisor: Prof. Lihong V. Wang)"
       institution: Caltech Optical Imaging Laboratory (COIL), Caltech
       year: 2020 - Present
       description:
         - Designed & optimized photoacoustic computed tomography for non-invasive vascular imaging
         - Applied machine learning to reconstruct, enhance, and analyze images
         - Developed quantum imaging systems with entangled-photon super-resolution and sub-shot-noise sensitivity
-    - title: Undergraduate Research Associate (Advisor: Prof. Aydogan Ozcan)
+    - title: "Undergraduate Research Associate (Advisor: Prof. Aydogan Ozcan)"
       institution: Computational Imaging Lab, UCLA
       year: 2018
       description:
         - Implemented deep-learning algorithms for high-throughput holographic biosensor image analysis
-    - title: Undergraduate Research Associate (Advisor: Prof. Kebin Shi)
+    - title: "Undergraduate Research Associate (Advisor: Prof. Kebin Shi)"
       institution: Institute of Modern Optics, Peking University
       year: 2017
       description:
         - Researched wavefront-shaping techniques to achieve auto-focusing in optical systems
-    - title: Undergraduate Research Associate (Advisor: Prof. Dong Yu)
+    - title: "Undergraduate Research Associate (Advisor: Prof. Dong Yu)"
       institution: Department of Physics, UC Davis
       year: 2017
       description:
@@ -92,4 +92,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Photography, Indie Music, Hiking, Skiing
+    - "<u>Hobbies:</u> Photography, Indie Music, Hiking, Skiing"
