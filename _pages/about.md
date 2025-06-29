@@ -32,6 +32,6 @@ My research focuses on advancing optical imaging through three directions.
   <li><b>Computational imaging:</b> I have developed a range of computational tools, including both model-based and learning-based methods, to improve image reconstruction and enhancement in holography, tomography, and single-photon photography.</li>
 </ul>
 
-My long-term goal is to explore and push the clinical translation of novel imaging modalities by integrating them with frontier computational methods.
+My long-term goal is to integrate frontier imaging modalities to explore and push their clinical translation.
 
-In my free time, I love diving into visual art and vibing to some indie tunes—preferably with a good cup of coffee. As of 07/2025, my favorite artist is <a href="https://www.sugimotohiroshi.com/">Hiroshi Sugimoto</a>. I am also a fan of <a href="https://xintong-barry.github.io/photography/">travel photography</a> as well as a collector of <a href="https://npshistory.com/brochures/">NPS brochures</a> and <a href="https://www.reddit.com/r/Trophies/">the almighty Platinum</a>. Add in some rookie-level hiking and skiing, and that’s my side hustle from research life.
+In my free time, I love diving into visual art and vibing to some indie tunes—preferably with a good cup of coffee. As of 07/2025, my favorite artist is <a href="https://www.sugimotohiroshi.com/">Hiroshi Sugimoto</a>. I am also a fan of <a href="https://xintong.myportfolio.com/">travel photography</a> as well as a collector of <a href="https://npshistory.com/brochures/">NPS brochures</a> and <a href="https://www.reddit.com/r/Trophies/">the almighty Platinum</a>. Add in some rookie-level hiking and skiing, and that’s my side hustle from research life.
