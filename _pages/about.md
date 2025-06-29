@@ -23,7 +23,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My name is Xin Tong (Chinese: 仝鑫). I am currently a Ph.D. candidate in <a href="https://mede.caltech.edu/">Medical Engineering (MedE)</a> and <a href="https://www.ee.caltech.edu/">Electrical Engineering (EE)</a> at <a href="https://www.caltech.edu/">California Institute of Technology (Caltech)</a>. My Ph.D. advisor is <a href="https://scholar.google.com/citations?user=Kb_VdA8AAAAJ">Prof. Lihong V. Wang</a>.
+My name is Xin Tong (Chinese: 仝鑫). I am currently a Ph.D. candidate in <a href="https://mede.caltech.edu/">Medical Engineering (MedE)</a> and <a href="https://www.ee.caltech.edu/">Electrical Engineering (EE)</a> at <a href="https://www.caltech.edu/">California Institute of Technology (Caltech)</a>. My Ph.D. advisor is <a href="https://scholar.google.com/citations?user=Kb_VdA8AAAAJ">Prof. Lihong V. Wang</a>. I was also a research scientist intern in Meta Reality Labs in 2024.
 
 My research focuses on advancing optical imaging through three directions.
 <ul>
@@ -34,4 +34,4 @@ My research focuses on advancing optical imaging through three directions.
 
 My long-term goal is to integrate frontier imaging modalities to explore and push their clinical translation.
 
-In my free time, I love diving into visual art and vibing to some indie tunes—preferably with a good cup of coffee. As of 07/2025, my favorite artist is <a href="https://www.sugimotohiroshi.com/">Hiroshi Sugimoto</a>. I am also a fan of <a href="https://xintong.myportfolio.com/">travel photography</a> as well as a collector of <a href="https://npshistory.com/brochures/">NPS brochures</a> and <a href="https://www.reddit.com/r/Trophies/">the almighty Platinum</a>. Add in some rookie-level hiking and skiing, and that’s my side hustle from research life.
+In my free time, I love diving into visual art and vibing to some indie tunes—preferably with a good cup of coffee. As of 07/2025, my favorite artist is <a href="https://www.sugimotohiroshi.com/">Hiroshi Sugimoto</a>. I am also a fan of photography (<a href="https://xintong.myportfolio.com/">my portfolio</a>) as well as a collector of <a href="https://npshistory.com/brochures/">NPS brochures</a> and <a href="https://www.reddit.com/r/Trophies/">the almighty Platinum</a>. Add in some rookie-level hiking and skiing, and that’s my side hustle from research life.
