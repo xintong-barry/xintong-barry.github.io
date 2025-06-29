@@ -15,19 +15,19 @@
   contents:
     - title: PhD, Medical and Electrical Engineering
       institution: California Institute of Technology, Pasadena, CA, US
-      year: 2020 - Present
+      year: 2020 - Now
       description:
-        - "GPA: 4.0/4.0"
+        - GPA 4.0/4.0
     - title: MS, Medical Engineering
       institution: California Institute of Technology, Pasadena, CA, US
       year: 2020 - 2021
       description:
-        - "GPA: 4.0/4.0"
+        - GPA 4.0/4.0
     - title: BS, Physics
       institution: Peking University, Beijing, China
       year: 2015 - 2019
       description:
-        - "GPA: 3.8/4.0“
+        - GPA 3.8/4.0
 
 - title: Work Experiences
   type: time_table
