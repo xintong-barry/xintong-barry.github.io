@@ -3,7 +3,7 @@ layout: page
 title: Research
 permalink: /projects/
 description: A summary of my research interests.
-nav: true
+nav: false
 nav_order: 3
 display_categories: [PAT, QI, CI]
 horizontal: false
