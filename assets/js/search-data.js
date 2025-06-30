@@ -18,17 +18,10 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "Publications by categories in reversed chronological order. * denotes equal contributions.",
+          description: "Selected publications by categories in reversed chronological order (full list can be found in my CV). * denotes equal contributions.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
-          },
-        },{id: "nav-research",
-          title: "Research",
-          description: "A summary of my research interests.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
           },
         },{id: "nav-cv",
           title: "CV",
