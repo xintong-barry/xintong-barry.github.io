@@ -2,10 +2,10 @@
 layout: page
 title: Research
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A summary of my research interests.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [PAT, QI, CI]
 horizontal: false
 ---
 
