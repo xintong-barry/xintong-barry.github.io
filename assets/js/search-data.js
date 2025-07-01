@@ -91,6 +91,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20240319_Caltech_News_ICE/";
+            },},{id: "news-our-work-on-ai-breast-photoacoustic-tomography-is-covered-by-caltech-news",
+          title: 'Our work on AI + breast photoacoustic tomography is covered by Caltech News...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/20250630_Caltech_News_Breast/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
