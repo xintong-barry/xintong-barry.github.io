@@ -32,7 +32,7 @@
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
           {%
             include figure.liquid
-            loading="eager"
+            loading="lazy"
             path=entry_path
             sizes = "200px"
             class="preview z-depth-1 rounded"
@@ -193,7 +193,7 @@
         </a>
       {% endif %}
       {% if entry.abstract %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+        <button type="button" class="abstract btn btn-sm z-depth-0" aria-expanded="false" aria-controls="abstract-{{ entry.key }}">Abstract</button>
       {% endif %}
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
@@ -348,7 +348,7 @@
 
     {% if entry.abstract %}
       <!-- Hidden abstract block -->
-      <div class="abstract hidden">
+      <div id="abstract-{{ entry.key }}" class="abstract hidden">
         <p>{{ entry.abstract }}</p>
       </div>
     {% endif %}

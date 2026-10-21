@@ -1,0 +1,2 @@
+# Build B: bundle exec jekyll build --config _config.yml,_config.helvetica.yml
+editorial_typography: helvetica

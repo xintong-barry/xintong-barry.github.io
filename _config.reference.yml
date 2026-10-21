@@ -1,0 +1,2 @@
+# Build A: bundle exec jekyll build --config _config.yml,_config.reference.yml
+editorial_typography: reference
