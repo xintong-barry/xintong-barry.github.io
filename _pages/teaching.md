@@ -31,7 +31,7 @@ nav_order: 6
 ## Peer Review Services
 
 - Reviewed 100+ manuscripts for journals including:<br>
-  _Light: Science & Applications_, _IEEE Transactions on Medical Imaging_, _Photoacoustics_, and others.
+  _Nature_, _Nature Communications_, _Light: Science & Applications_, _IEEE Transactions on Medical Imaging_, _Photoacoustics_, and others.
 
 ## Guest Editor Services
 
