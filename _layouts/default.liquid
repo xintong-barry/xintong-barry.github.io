@@ -16,7 +16,10 @@
   </head>
 
   <!-- Body -->
-  <body data-typography="{{ site.editorial_typography | default: 'helvetica' }}" class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body
+    data-typography="{{ site.editorial_typography | default: 'reference' }}"
+    class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}"
+  >
     <a class="skip-link" href="#main-content">Skip to content</a>
     <!-- Header -->
     {% include header.liquid %}
@@ -25,22 +28,24 @@
     <main id="main-content" class="container site-content" tabindex="-1">
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
-          <div class="row">
+          <div class="content-with-toc sidebar-right">
             <!-- main content area -->
-            <div class="col-sm-9">{{ content }}</div>
+            <div class="page-body">{{ content }}</div>
             <!-- sidebar, which will move to the top on a small screen -->
-            <div class="col-sm-3">
-              <nav id="toc-sidebar" class="sticky-top"></nav>
-            </div>
+            <aside class="page-contents">
+              <p class="contents-label">On this page</p>
+              <nav id="toc-sidebar" class="sticky-top" aria-label="Page sections"></nav>
+            </aside>
           </div>
         {% else %}
-          <div class="row">
+          <div class="content-with-toc sidebar-left">
             <!-- sidebar, which will move to the top on a small screen -->
-            <div class="col-sm-3">
-              <nav id="toc-sidebar" class="sticky-top"></nav>
-            </div>
+            <aside class="page-contents">
+              <p class="contents-label">On this page</p>
+              <nav id="toc-sidebar" class="sticky-top" aria-label="Page sections"></nav>
+            </aside>
             <!-- main content area -->
-            <div class="col-sm-9">{{ content }}</div>
+            <div class="page-body">{{ content }}</div>
           </div>
         {% endif %}
       {% else %}
