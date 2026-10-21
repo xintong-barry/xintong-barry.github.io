@@ -4,8 +4,8 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 5
-cv_pdf: CV_XinTong_20250626.pdf # you can also use external links here
-description: The PDF version of my CV can be found via the button on the right.
+cv_pdf: CV_XinTong_20261021.pdf # you can also use external links here
+description: Image Scientist at Apple. Download the updated PDF using the link above.
 toc:
   sidebar: left
 ---

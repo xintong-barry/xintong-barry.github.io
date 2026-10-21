@@ -4,7 +4,7 @@ title: About
 permalink: /
 subtitle: Optical imaging & computation
 introduction: >-
-  My name is Xin Tong (Chinese: 仝鑫). I am currently a Ph.D. candidate in <a href="https://mede.caltech.edu/">Medical Engineering (MedE)</a> and <a href="https://www.ee.caltech.edu/">Electrical Engineering (EE)</a> at <a href="https://www.caltech.edu/">California Institute of Technology (Caltech)</a>. My Ph.D. advisor is <a href="https://scholar.google.com/citations?user=Kb_VdA8AAAAJ">Prof. Lihong V. Wang</a>. I was also a research scientist intern in Meta Reality Labs in 2024.
+  My name is Xin Tong (Chinese: 仝鑫). I am currently an Image Scientist at <a href="https://www.apple.com/">Apple</a>. I got my Ph.D. in <a href="https://mede.caltech.edu/">Medical Engineering (MedE)</a> and <a href="https://www.ee.caltech.edu/">Electrical Engineering (EE)</a> at <a href="https://www.caltech.edu/">California Institute of Technology (Caltech)</a>. I was also a research scientist intern in Meta Reality Labs in 2024.
 
 profile:
   align: right
