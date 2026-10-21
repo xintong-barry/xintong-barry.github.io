@@ -18,14 +18,14 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "Selected publications by categories in reversed chronological order (full list can be found in my CV). * denotes equal contributions.",
+          description: "Journal articles, preprints, and conference publications in reverse chronological order. * denotes equal contributions.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "The PDF version of my CV can be found via the button on the right.",
+          description: "Image Scientist at Apple. Download the updated PDF using the link above.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -96,6 +96,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20250630_Caltech_News_Breast/";
+            },},{id: "news-our-work-on-fourfold-quantum-super-resolution-microscopy-is-featured-in-caltech-news",
+          title: 'Our work on fourfold quantum super-resolution microscopy is featured in Caltech News',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/20260806_Caltech_News_SR4/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
@@ -176,30 +181,4 @@ ninja.data = [{
         handler: () => {
           window.open("https://scholar.google.com/citations?user=d8NE864AAAAJ", "_blank");
         },
-      },{
-      id: 'light-theme',
-      title: 'Change theme to light',
-      description: 'Change the theme of the site to Light',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("light");
-      },
-    },
-    {
-      id: 'dark-theme',
-      title: 'Change theme to dark',
-      description: 'Change the theme of the site to Dark',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("dark");
-      },
-    },
-    {
-      id: 'system-theme',
-      title: 'Use system default theme',
-      description: 'Change the theme of the site to System Default',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("system");
-      },
-    },];
+      },];
