@@ -3,6 +3,9 @@ layout: about
 title: About
 permalink: /
 subtitle: Optical imaging & computation
+role: Image Scientist at Apple
+personal_note: >-
+  In my free time, I love diving into visual art and vibing to some indie tunes—preferably with a good cup of coffee. As of 07/2025, my favorite artist is <a href="https://www.sugimotohiroshi.com/">Hiroshi Sugimoto</a>. I am also a fan of photography (<a href="https://xintong.myportfolio.com/">my portfolio</a>) as well as a collector of <a href="https://npshistory.com/brochures/">NPS brochures</a> and <a href="https://www.reddit.com/r/Trophies/">the almighty Platinum</a>. Add in some rookie-level hiking and skiing, and that’s my side hustle from research life.
 introduction: >-
   My name is Xin Tong (Chinese: 仝鑫). I am currently an Image Scientist at <a href="https://www.apple.com/">Apple</a>. I got my Ph.D. in <a href="https://mede.caltech.edu/">Medical Engineering (MedE)</a> and <a href="https://www.ee.caltech.edu/">Electrical Engineering (EE)</a> at <a href="https://www.caltech.edu/">California Institute of Technology (Caltech)</a>. I was also a research scientist intern in Meta Reality Labs in 2024.
 
@@ -25,17 +28,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<p class="research-intro">My research focuses on advancing optical imaging through three directions.</p>
-<ul class="research-directions">
-  <li><b>Photoacoustic imaging:</b> I designed and engineered state-of-the-art photoacoustic tomography (PAT) systems to non-invasively visualize deep vascular structures with high spatial resolution and acquisition speed. These systems have been applied to preclinical and clinical scenarios, supporting early detection and diagnosis of conditions such as breast cancer and cardiovascular disease.</li>
-  <li><b>Quantum imaging:</b> I pioneered optical imaging systems that exploit spatial and polarization-entangled photon pairs to overcome classical resolution and sensitivity limits. My research has addressed key challenges in quantum imaging—such as low signal-to-noise ratios and limited spatial sampling—enabling practical quantum-enhanced imaging for whole-organism and sub-cellular visualization.</li>
-  <li><b>Computational imaging:</b> I have developed a range of computational tools, including both model-based and learning-based methods, to improve image reconstruction and enhancement in holography, tomography, and single-photon photography.</li>
-</ul>
-
-My long-term goal is to integrate frontier imaging modalities to explore and push their clinical translation.
-
-<div class="personal-note" markdown="1">
-
-In my free time, I love diving into visual art and vibing to some indie tunes—preferably with a good cup of coffee. As of 07/2025, my favorite artist is <a href="https://www.sugimotohiroshi.com/">Hiroshi Sugimoto</a>. I am also a fan of photography (<a href="https://xintong.myportfolio.com/">my portfolio</a>) as well as a collector of <a href="https://npshistory.com/brochures/">NPS brochures</a> and <a href="https://www.reddit.com/r/Trophies/">the almighty Platinum</a>. Add in some rookie-level hiking and skiing, and that’s my side hustle from research life.
-
+<div class="research-overview">
+<p class="research-intro">Advancing how we see, from deep tissue to individual photons.</p>
+<p class="research-context">My research spans three complementary directions in optical imaging.</p>
+<p class="research-goal">My long-term goal is to integrate frontier imaging modalities to explore and push their clinical translation.</p>
 </div>
+
+<ul class="research-directions">
+  <li><span class="research-number" aria-hidden="true">01</span><div><h3>Photoacoustic imaging</h3><p>I designed and engineered state-of-the-art photoacoustic tomography (PAT) systems to non-invasively visualize deep vascular structures with high spatial resolution and acquisition speed. These systems have been applied to preclinical and clinical scenarios, supporting early detection and diagnosis of conditions such as breast cancer and cardiovascular disease.</p></div></li>
+  <li><span class="research-number" aria-hidden="true">02</span><div><h3>Quantum imaging</h3><p>I pioneered optical imaging systems that exploit spatial and polarization-entangled photon pairs to overcome classical resolution and sensitivity limits. My research has addressed key challenges in quantum imaging—such as low signal-to-noise ratios and limited spatial sampling—enabling practical quantum-enhanced imaging for whole-organism and sub-cellular visualization.</p></div></li>
+  <li><span class="research-number" aria-hidden="true">03</span><div><h3>Computational imaging</h3><p>I have developed a range of computational tools, including both model-based and learning-based methods, to improve image reconstruction and enhancement in holography, tomography, and single-photon photography.</p></div></li>
+</ul>

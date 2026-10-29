@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="post about-page">
+<div class="post about-page editorial-home">
   <section class="about-hero" aria-labelledby="about-title">
     <div class="hero-copy">
       {% if page.subtitle %}
@@ -9,12 +9,16 @@ layout: default
       {% endif %}
       <h1 id="about-title">
         {{ site.first_name }}
-        <span class="name-nickname">(Barry)</span> {{ site.last_name }}
+        {{ site.last_name }}
+        <span class="name-nickname">(Barry)</span>
       </h1>
+      {% if page.role %}
+        <p class="hero-role">{{ page.role }}</p>
+      {% endif %}
       {% if page.introduction %}
         <div class="introduction">{{ page.introduction | markdownify }}</div>
       {% endif %}
-      <div class="hero-links">
+      <div class="hero-links" aria-label="Professional information">
         <a href="{{ '/publications/' | relative_url }}">Publications <span aria-hidden="true">↗</span></a>
         <a href="{{ '/cv/' | relative_url }}">Curriculum vitae <span aria-hidden="true">↗</span></a>
       </div>
@@ -41,14 +45,14 @@ layout: default
   <article>
     <section class="home-section research-section" aria-labelledby="research-title">
       <div class="section-heading">
-        <h2 id="research-title">Research & interests</h2>
+        <h2 id="research-title">Research</h2>
         <span class="section-index" aria-hidden="true">01</span>
       </div>
       {{ content }}
     </section>
 
     {% if page.announcements and page.announcements.enabled %}
-      <section class="home-section" aria-labelledby="news-title">
+      <section class="home-section news-section" aria-labelledby="news-title">
         <div class="section-heading">
           <h2 id="news-title"><a href="{{ '/news/' | relative_url }}">Latest</a></h2>
           <span class="section-index" aria-hidden="true">02</span>
@@ -67,12 +71,22 @@ layout: default
     {% endif %}
 
     {% if page.selected_papers %}
-      <section class="home-section" aria-labelledby="publications-title">
+      <section class="home-section selected-section" aria-labelledby="publications-title">
         <div class="section-heading">
           <h2 id="publications-title">Selected publications</h2>
           <a class="section-link" href="{{ '/publications/' | relative_url }}">View all <span aria-hidden="true">↗</span></a>
         </div>
         {% include selected_papers.liquid %}
+      </section>
+    {% endif %}
+
+    {% if page.personal_note %}
+      <section class="home-section beyond-section" aria-labelledby="beyond-title">
+        <div class="section-heading">
+          <h2 id="beyond-title">Beyond the lab</h2>
+          <span class="section-index" aria-hidden="true">04</span>
+        </div>
+        <div class="personal-note">{{ page.personal_note | markdownify }}</div>
       </section>
     {% endif %}
 
